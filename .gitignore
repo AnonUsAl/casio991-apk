@@ -1,0 +1,13 @@
+# 签名私钥（绝对不能提交，泄露会导致他人可用同一签名冒充更新）
+*.keystore
+*.jks
+*.idsig
+
+# 构建临时产物（最终 APK 在根目录单独保留）
+build/
+classes/
+gen/
+
+# 系统文件
+.DS_Store
+*.swp
